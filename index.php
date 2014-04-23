@@ -1,3 +1,8 @@
+<?php
+require_once 'include/Events/Event.php';
+require_once 'include/File_management/FileManager.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +22,7 @@
 <link href="css/style.css" rel="stylesheet">
 
 <!-- Just for debugging purposes. Don't actually copy this line! -->
-<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -54,7 +59,26 @@
 					<br>
 					<h4 class="cover-heading">Eventi 2014</h4>
 					<hr>
-					<p>Coming soon...</p>
+					<?php 
+					$fileName="resources/events.txt";
+					$fm=new FileManager();//istanza per le utility sui file
+					$eventsList=$fm->getFile($fileName);
+					$arraySize=count($eventsList);
+					if($arraySize==0) echo "<p>Coming soon...</p>";
+					else{
+						echo"<table class='table'>";
+						for($i=0; $i<$arraySize; $i++){
+							$e=$eventsList[$i];
+							echo"<tr>";
+							echo"<td>".$e->getTitle()."</td>";
+							echo"<td>".$e->getDate()."</td>";
+							echo"<td><a href='".$e->getAlbumLink()."' target='_blank'>".$e->getAlbumLink()."</a></td>";
+							echo"</tr>";
+						}
+						echo"</table>";
+					}
+
+					?>
 				</div>
 			</div>
 			<div class="col-md-2"></div>
@@ -62,7 +86,10 @@
 		<div id="push"></div>
 	</div>
 	<div id="footer">
-		<p class="footerInfo">&copy; Design by <a href="http://about.me/andrea.marchetti/" target="_blanks">Andrea Marchetti</a></p>
+		<p class="footerInfo">
+			&copy; Design by <a href="http://about.me/andrea.marchetti/"
+				target="_blanks">Andrea Marchetti</a>
+		</p>
 	</div>
 
 	<!-- Bootstrap core JavaScript
