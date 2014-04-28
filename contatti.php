@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+<meta name="description" content="Scopri come contattare Spiaggia dei Fiori Fano per prenotare la tua vacanza sulla costiera adriatica -  Tel:0721-804916 Mail:info@spiaggiadeifiori.it">
+<meta name="keywords" content="Spiaggia,Fano,Estate,Vacanze,Mare,Costiera,Adriatica,Stabilimento Balneare,Ombrelloni,Sdraio">
+<meta name="author" content="Andrea Marchetti">
+<link rel="shortcut icon" href="">
 
-<title>Contatti</title>
+<title>Contatti - Spiaggia dei Fiori Fano</title>
 
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -85,15 +86,19 @@
 		<div id="push"></div>
 	</div>
 	<div id="footer">
-		<p class="footerInfo">&copy; Design by <a href="http://about.me/andrea.marchetti/" target="_blanks">Andrea Marchetti</a></p>
+		<p class="footerInfo">
+			&copy; Design by <a href="http://about.me/andrea.marchetti/"
+				target="_blanks">Andrea Marchetti</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"> CSS3
+				Certified </a>
+		</p>
 	</div>
 
 
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -33,7 +33,7 @@ if(isset($_GET['login'])){
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -134,15 +134,17 @@ if(isset($_GET['login'])){
 	<div id="footer">
 		<p class="footerInfo">
 			&copy; Design by <a href="http://about.me/andrea.marchetti/"
-				target="_blanks">Andrea Marchetti</a>
+				target="_blanks">Andrea Marchetti</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"> CSS3
+				Certified </a>
 		</p>
 	</div>
 
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	
 </body>
 </html>
