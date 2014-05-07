@@ -1,255 +1,216 @@
-/*
- * Globals
- */
- 
-/*Colors*/
-.dark{
-	color:#555;
-}
+/* Global Styles */
 
-.light{
-	color:#AAA;
-}
-
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
-}
-
-
-/*
- * Base structure
- */
-
-html, body {
-  height: 100%;
-  background-color: #FFF;
-  background-image: url(../img/wallpaper/wallpaper.jpg);
-  background-repeat:no-repeat;
-}
+html,
 body {
-  color: #fff;
-  text-align: center;
-  /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
-  /*box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
-}
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  display: table;
+  height: 100%;
   width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
 }
-.site-wrapper-inner {
+
+.vert-text {
   display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
+  vertical-align: middle;
+  text-align: center;
 }
 
-/* Padding for spacing */
-.inner {
-  padding: 30px;
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
 }
 
-
-/*
- * Header
- */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+/* Navbar style */
+.navbar-blue {
+	background: #4AE;
+	border-bottom: none;
 }
 
-.masthead-nav > li {
+.navbar-default .navbar-nav > li > a {
+	font-size:16px;	
+	font-weight:bold;
+  	color: #FFF;
+	border-bottom:solid 2px #CCC;
+	border-color:transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #FFF;
+  	border-color:#FFF;
+}
+
+/* Full Page Image Header Area */
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/wallpaper/wallpaper4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Intro */
+
+.intro {
+  padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+  background: #4AE;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}
+
+i.service-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
   display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
 }
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
+/* Callout */
+
+.callout {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/wallpaper/wallpaper2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* gallery */
+
+.gallery {
+  padding: 50px 0;
+}
+
+.gallery-item {
+  margin-bottom: 25px;
+}
+
+.img-gallery {
+  margin: 0 auto;
+}
+
+.gallery-tmb a img{
+	width:80px;
+	border-bottom: solid 4px #FFF;
+	border-color: transparent;
+	padding-bottom:3px;
+}
+
+.gallery-tmb a img:hover{
+	border-color:#4AE;
+}
+
+
+/* Call to Action */
+
+.call-to-action {
+  color: #FFF;
+  background: #CCC;
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+/* Map */
+
+.map {
+  height: 500px;
+}
+
+/* Footer */
+
+footer {
+  padding: 100px 0;
+}
+
+.top-scroll {
+  margin-top: 50px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.scroll {
+  color: #333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/wallpaper/wallpaper4.jpg) no-repeat center center scroll; 
   }
-  .masthead-nav {
-    float: left;
-	margin-left:50px;
+
+  .callout {
+	background: url(../img/wallpaper/wallpaper2.jpg) no-repeat center center scroll; 
   }
-}
 
-
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 20px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
-}
-
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
+  .map {
+	height: 75%;
   }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
 
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
-  }
 }
 
 
-
-/*Background opacity*/
-.opacity{
-	background-color:#33F;
-	background-color:rgba(255,255,255,0.6);
-	text-shadow:none;
-	color:#333;
+/*Service Icons*/
+.sport{
+	background-image: url(../img/icons/services/small/sport_w.png);
+	background-repeat:no-repeat;
+	background-position:center;
 }
 
-/*Border Radius & Padding*/
-.radiusAndPadding{
-	border-radius:20px;
-	padding:10px 10px 60px 10px;
+.connect{
+	background-image:url(../img/icons/services/small/connectivity_w.png);
+	background-repeat:no-repeat;
+	background-position:center;
 }
 
-/*Main div content*/
-.mainContent{
-	margin:0 auto;
+.sea-service{
+	background-image:url(../img/icons/services/small/attrezzature_in_mare_w.png);
+	background-repeat:no-repeat;
+	background-position:center;
 }
 
-.mainDisplayer{
-	min-height:300px;	
-	padding:30px;
-	margin-top:-15px;
+.clients-services{
+	background-image:url(../img/icons/services/small/bagnanti.png);
+	background-repeat:no-repeat;
+	background-position:center;
 }
 
-/*Gallery Images*/
-.galleryImg img{
-	margin:5px;
-	width:100px;
+/*Contacts & location*/
+.icons img{
+	width:50px;
 }
 
-.miniImg img{
-	width:40px;
-}
-
-.gallery .table thead > tr > th,
-.gallery .table tbody > tr > th,
-.gallery .table tfoot > tr > th,
-.gallery .table thead > tr > td,
-.gallery .table tbody > tr > td,
-.gallery .table tfoot > tr > td {
-  padding: 2px;
-  border-top: none;
-}
-
-/*H1 personal*/
-.mainTitle:first-letter{
-	font-size:30px;
-}
-
-/*Left oriented text*/
-.leftOrientedText{
-	text-align:left;
-}
-
-/*Icons list*/
-.iconList li{
-	display:inline-block;
-}
-
-
-/*Footer*/
-#footer, #push {
-    height: 50px; 
-    clear: both;
-}
-
-/*Container*/
-#container {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -50px; 
-}
-
-.footerInfo{
-	font-size: 11px;
-	text-align: left;
-	padding-left:25px;
+/*MISC*/
+.white{
+	color:#FFF;
 }
