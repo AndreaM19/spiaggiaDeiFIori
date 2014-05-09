@@ -69,7 +69,7 @@ body {
   margin-bottom: 15px;
 }
 
-i.service-icon {
+i.service-icon-big {
   border: 3px solid #ffffff;
   border-radius: 50%;
   display: inline-block;
@@ -79,6 +79,34 @@ i.service-icon {
   line-height: 136px;
   vertical-align: middle; 
   text-align: center;
+}
+
+i.service-icon-medium {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 30px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+i.service-icon-small {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+i.icon-blue {
+  border: 3px solid #428bca;
 }
 
 /* Callout */
@@ -125,7 +153,7 @@ i.service-icon {
 
 .call-to-action {
   color: #FFF;
-  background: #CCC;
+  background: #AAA;
   padding: 50px 0;
 }
 

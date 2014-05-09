@@ -70,9 +70,15 @@
 				Scopri tutti i nostri servizi, le offerte e le attrazioni che
 				offriamo <br>per un soggiorno indimenticabile sulla costa adriatica
 				di Fano
-			</h3>
-			<br> <a href="#services" class="btn btn-default btn-lg">Comincia il
-				tour...</a>
+			</h3><br>
+			<div class="col-md-12 text-center">
+				<div class="service-item">
+					<a href="#services" style="color:#FFF;"><i class="service-icon-medium fa fa-arrow-down"></i>
+						<h2>Inizia il tour</h2></a>
+				</div>
+			</div>
+			<!-- <a href="#services" class="btn btn-default btn-lg">Comincia il
+				tour...</a> -->
 		</div>
 	</div>
 	<!-- /Full Page Image Header Area -->
@@ -106,7 +112,7 @@
 			<div class="row">
 				<div class="col-md-2 col-md-offset-2 text-center">
 					<div class="service-item">
-						<i class="service-icon fa sport"></i>
+						<i class="service-icon-big fa sport" title="Sport"></i>
 						<h4>Sport</h4>
 						<p>Campo polivalente: Beach-Volley / Beach-Tennis dotato di
 							illuminazione per attivit&agrave; anche noturna</p>
@@ -114,15 +120,15 @@
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
-						<i class="service-icon fa connect"></i>
+						<i class="service-icon-big fa connect" title="Connettivit&agrave;"></i>
 						<h4>Connettivit&agrave;</h4>
-						<p>Possibilit&agrave; di navigazione internet gratuita grazie
-							alla rete Wi-fi disponibile per tutti i clienti</p>
+						<p>Possibilit&agrave; di navigazione internet gratuita grazie alla
+							rete Wi-fi disponibile per tutti i clienti</p>
 					</div>
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
-						<i class="service-icon fa clients-services"></i>
+						<i class="service-icon-big fa clients-services" title="Servizi per i bagnanti"></i>
 						<h4>Per i bagnanti</h4>
 						<p>Doccia con acqua dolce, doccia riscaldata e "Tunnel del
 							fresco", area giochi attrezzata per bambini</p>
@@ -130,7 +136,7 @@
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
-						<i class="service-icon fa sea-service"></i>
+						<i class="service-icon-big fa sea-service" title="Attrezzature in mare"></i>
 						<h4>Attrezzature in mare</h4>
 						<p>Canoe posto singolo, canoe biposto, pedal&ograve; e spiaggine</p>
 					</div>
@@ -140,15 +146,22 @@
 	</div>
 	<!-- /Services -->
 
-	<!-- Callout -->
+	<!-- Slogan -->
 	<div class="callout" id="beach">
 		<div class="vert-text">
 			<h1>Un luogo perfetto per le tue vacanze...</h1>
-			<br> <a href="#contacts" class="btn btn-default btn-lg">Scopri come
-				raggiungerci</a>
+			<br>
+			<div class="col-md-12 text-center">
+				<div class="service-item">
+					<a href="#contacts" style="color:#FFF;"><i class="service-icon-medium fa fa-map-marker"></i>
+						<h2>Scopri come raggiungerci</h2></a>
+				</div>
+			</div>
+			<!-- <a href="#contacts" class="btn btn-default btn-lg">Scopri come
+				raggiungerci</a>-->
 		</div>
 	</div>
-	<!-- /Callout -->
+	<!-- /Slogan -->
 
 	<!-- gallery -->
 	<div id="gallery" class="gallery">
@@ -204,61 +217,54 @@
 			</div>
 		</div>
 	</div>
-
 	<!-- /gallery -->
 
-	<!-- Call to Action -->
+	<!-- Contacts -->
 	<div class="call-to-action" id="contacts">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center">
 					<h2>Contatti e Location</h2>
 					<br>
-					<div class="col-md-4 icons">
-						<p>
-							<img src="img/icons/contacts-location/loc.png"><br>
-						
-						
-						<h5>
-							LOCATION:<br> <br> Via delle Nasse <br>Localit&agrave; Gimarra <br>FANO
-							(PU)
-						</h5>
-						</p>
+					<div class="col-md-4 text-center">
+					<div class="service-item">
+						<i class="service-icon-medium fa fa-map-marker"></i>
+						<h4>Location:</h4>
+						<p>Via delle Nasse <br>Localit&agrave; Gimarra <br>FANO
+							(PU)</p>
 					</div>
-					<div class="col-md-4 icons">
-						<p>
-							<img src="img/icons/contacts-location/info.png"><br>
-						
-						
-						<h5>
-							PER INFO: <br> <br> Tel. 0721-804916 <br> <a
+				</div>
+				<div class="col-md-4 text-center">
+					<div class="service-item">
+						<i class="service-icon-medium fa fa-info"></i>
+						<h4>Info:</h4>
+						<p>Tel. 0721-804916 <br> <a
 								href="mailto:info@spiaggiadeifiori.it" target="_blank"
-								class="dark">info@spiaggiadeifiori.it</a>
-						</h5>
-						</p>
+								class="dark">info@spiaggiadeifiori.it</a></p>
 					</div>
-					<div class="col-md-4 icons">
-						<img src="img/icons/contacts-location/facebook-logo.png"> <br>
-						<h5>
-							SOCIAL:<br> <br> <a
+				</div>
+				<div class="col-md-4 text-center">
+					<div class="service-item">
+						<i class="service-icon-medium fa fa-facebook"></i>
+						<h4>Social:</h4>
+						<p>Seguici sulla nostra pagina Facebook<br><a
 								href="https://www.facebook.com/SpiaggiaDeiFioriFano"
-								target="_blank"><i>SpiaggiaDeiFioriFano</i> </a><br>Seguici
-							anche su Facebook!!
-						</h5>
+								target="_blank"><i>SpiaggiaDeiFioriFano</i> </a></p>
 					</div>
+				</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- /Call to Action -->
+	<!-- /Contacts -->
 
-	<!-- Map -->
+	<!-- Google Map -->
 	<div id="location" class="map">
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2876.869522039553!2d12.995775000000002!3d43.858532999999994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4c397172591d617!2sBar+Spiaggia+Dei+Fiori!5e0!3m2!1sit!2s!4v1399324905796"
 			width="100%" height="100%" frameborder="0" style="border: 0"></iframe>
 	</div>
-	<!-- /Map -->
+	<!-- /Google Map -->
 
 	<!-- Footer -->
 	<footer>
@@ -269,13 +275,13 @@
 						<a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"><h4>Torna
 									all'inizio</h4> </i> </a>
 					</div>-->
-					<div class="col-md-12 text-center" style="margin-top: -80px;">
+					<div class="col-md-12 text-center" style="margin-top: -50px;">
 						<div class="service-item">
-							<a href="#top"><i class="service-icon fa fa-arrow-up"></i>
+							<a href="#top"><i class="service-icon-medium fa fa-arrow-up icon-blue"></i>
 								<h4>Torna all'inizio</h4> </a>
 						</div>
 					</div>
-					<hr>
+					
 					<p>
 						Design by <a href="http://about.me/andrea.marchetti/"
 							target="_blanks">Andrea Marchetti</a> &copy;

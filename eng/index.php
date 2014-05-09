@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description"
-	content="Spiaggia dei Fiori Fano vi aspetta per una estate indimenticabile: servizi comodi e moderni in una bellissima location sulla costiera adriatica per la tua vacanza sulla sabbia.">
+	content="Spiaggia dei Fiori Fano awaits you for an unforgettable summer: comfortable and modern facilities in a beautiful location on the Adriatic coast for your vacation on the sand.">
 <meta name="keywords"
-	content="Spiaggia,Fano,Estate,Vacanze,Mare,Costiera,Adriatica,Stabilimento Balneare,Ombrelloni,Sdraio">
+	content="Beach,Fano,Italy,Summer,Holiday,Sea,Cost,Adriatic sea,Bathhouse,Umbrellas,Beach chairs">
 <meta name="author" content="Andrea Marchetti">
 <link rel="shortcut icon" href="../img/icons/favicon/ico.png">
 <title>Spiaggia dei fiori Fano - EN</title>
@@ -47,9 +47,9 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="index.php" title="Spiaggia dei Fiori home">Home</a></li>
-					<li><a href="#services" title="Servizi">Services</a></li>
-					<li><a href="#beach" title="La spiaggia">Beach</a></li>
-					<li><a href="#contacts" title="Contatti">Contacts & Location</a></li>
+					<li><a href="#services" title="Services">Services</a></li>
+					<li><a href="#beach" title="Our beach">Beach</a></li>
+					<li><a href="#contacts" title="Contacts">Contacts & Location</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#top" title="English"><img
@@ -71,7 +71,15 @@
 				for you <br>for an unforgettable holiday on the Adriatic coast of
 				Fano
 			</h3>
-			<br> <a href="#services" class="btn btn-default btn-lg">Tour start...</a>
+			<br>
+			<div class="col-md-12 text-center">
+				<div class="service-item">
+					<a href="#services" style="color: #FFF;"><i
+						class="service-icon-medium fa fa-arrow-down"></i>
+						<h2>Tour start</h2> </a>
+				</div>
+			</div>
+			<!--<a href="#services" class="btn btn-default btn-lg">Tour start</a>-->
 		</div>
 	</div>
 	<!-- /Full Page Image Header Area -->
@@ -84,9 +92,8 @@
 					<h2>Discover the services that we provide to you!</h2>
 					<p class="lead">
 						All the details on the services offered to customers by Spiaggia
-						dei Fior Fano. Browse the photo <a
-							href="#beach">gallery</a> to see other picture our
-						bathhouse. 
+						dei Fior Fano. Browse the photo <a href="#beach">gallery</a> to
+						see other picture our bathhouse.
 					</p>
 				</div>
 			</div>
@@ -106,30 +113,32 @@
 			<div class="row">
 				<div class="col-md-2 col-md-offset-2 text-center">
 					<div class="service-item">
-						<i class="service-icon fa sport"></i>
+						<i class="service-icon-big fa sport" title="Sport"></i>
 						<h4>Sport</h4>
 						<p>Beach-Volley / Beach-Tennis with light for playing at night</p>
 					</div>
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
-						<i class="service-icon fa connect"></i>
+						<i class="service-icon-big fa connect" title="Connectivity"></i>
 						<h4>Connectivity</h4>
 						<p>Free Wi-fi connection for all clients</p>
 					</div>
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
-						<i class="service-icon fa clients-services"></i>
+						<i class="service-icon-big fa clients-services" title="Relax"></i>
 						<h4>Relax</h4>
-						<p>Fresh water shower, hot shower and "Fresh tunnel", play area for children</p>
+						<p>Fresh water shower, hot shower and "Fresh tunnel", play area
+							for children</p>
 					</div>
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
-						<i class="service-icon fa sea-service"></i>
+						<i class="service-icon-big fa sea-service" title="Facilities at sea"></i>
 						<h4>Facilities at sea</h4>
-						<p>Canoe single place, canoe duble place, pedal&ograve; and spiaggine</p>
+						<p>Canoe single place, canoe duble place, pedal&ograve; and
+							spiaggine</p>
 					</div>
 				</div>
 			</div>
@@ -137,15 +146,23 @@
 	</div>
 	<!-- /Services -->
 
-	<!-- Callout -->
+	<!-- Slogan -->
 	<div class="callout" id="beach">
 		<div class="vert-text">
 			<h1>A perfect place for your holiday...</h1>
-			<br> <a href="#contacts" class="btn btn-default btn-lg">Discover
-				where we are</a>
+			<br>
+			<div class="col-md-12 text-center">
+				<div class="service-item">
+					<a href="#contacts" style="color: #FFF;"><i
+						class="service-icon-medium fa fa-map-marker"></i>
+						<h2>Discover where we are</h2> </a>
+				</div>
+			</div>
+			<!--<a href="#contacts" class="btn btn-default btn-lg">Discover
+				where we are</a>-->
 		</div>
 	</div>
-	<!-- /Callout -->
+	<!-- /Slogan -->
 
 	<!-- gallery -->
 	<div id="gallery" class="gallery">
@@ -204,58 +221,57 @@
 
 	<!-- /gallery -->
 
-	<!-- Call to Action -->
+	<!-- Contacts -->
 	<div class="call-to-action" id="contacts">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center">
 					<h2>Contacts & Location</h2>
 					<br>
-					<div class="col-md-4 icons">
-						<p>
-							<img src="../img/icons/contacts-location/loc.png"><br>
-						
-						
-						<h5>
-							LOCATION:<br> <br> Via delle Nasse <br>Localit&agrave; Gimarra <br>FANO
-							(PU)
-						</h5>
-						</p>
+					<div class="col-md-4 text-center">
+						<div class="service-item">
+							<i class="service-icon-medium fa fa-map-marker"></i>
+							<h4>Location:</h4>
+							<p>
+								Via delle Nasse <br>Localit&agrave; Gimarra <br>FANO (PU)
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4 icons">
-						<p>
-							<img src="../img/icons/contacts-location/info.png"><br>
-						
-						
-						<h5>
-							INFO: <br> <br> Tel. 0721-804916 <br> <a
-								href="mailto:info@spiaggiadeifiori.it" target="_blank"
-								class="dark">info@spiaggiadeifiori.it</a>
-						</h5>
-						</p>
+					<div class="col-md-4 text-center">
+						<div class="service-item">
+							<i class="service-icon-medium fa fa-info"></i>
+							<h4>Info:</h4>
+							<p>
+								Tel. 0721-804916 <br> <a href="mailto:info@spiaggiadeifiori.it"
+									target="_blank" class="dark">info@spiaggiadeifiori.it</a>
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4 icons">
-						<img src="../img/icons/contacts-location/facebook-logo.png"> <br>
-						<h5>
-							SOCIAL:<br> <br> <a
-								href="https://www.facebook.com/SpiaggiaDeiFioriFano"
-								target="_blank"><i>SpiaggiaDeiFioriFano</i> </a><br>Follow us on
-							Facebook!!
-						</h5>
+					<div class="col-md-4 text-center">
+						<div class="service-item">
+							<i class="service-icon-medium fa fa-facebook"></i>
+							<h4>Social:</h4>
+							<p>
+								Follow us on Facebook!!<br> <a
+									href="https://www.facebook.com/SpiaggiaDeiFioriFano"
+									target="_blank"><i>SpiaggiaDeiFioriFano</i> </a>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- /Call to Action -->
+	<!-- /Contacts -->
 
-	<!-- Map -->
+
+	<!-- Google Map -->
 	<div id="location" class="map">
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2876.869522039553!2d12.995775000000002!3d43.858532999999994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4c397172591d617!2sBar+Spiaggia+Dei+Fiori!5e0!3m2!1sit!2s!4v1399324905796"
 			width="100%" height="100%" frameborder="0" style="border: 0"></iframe>
 	</div>
-	<!-- /Map -->
+	<!-- / Google Map -->
 
 	<!-- Footer -->
 	<footer>
@@ -266,13 +282,13 @@
 						<a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"><h4>Torna
 									all'inizio</h4> </i> </a>
 					</div>-->
-					<div class="col-md-12 text-center" style="margin-top: -80px;">
+					<div class="col-md-12 text-center" style="margin-top: -50px;">
 						<div class="service-item">
-							<a href="#top"><i class="service-icon fa fa-arrow-up"></i>
+							<a href="#top"><i class="service-icon-medium fa fa-arrow-up icon-blue"></i>
 								<h4>Go to intro</h4> </a>
 						</div>
 					</div>
-					<hr>
+
 					<p>
 						Design by <a href="http://about.me/andrea.marchetti/"
 							target="_blanks">Andrea Marchetti</a> &copy;
