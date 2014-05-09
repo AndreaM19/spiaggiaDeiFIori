@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +9,8 @@
 <meta name="keywords"
 	content="Spiaggia,Fano,Estate,Vacanze,Mare,Costiera,Adriatica,Stabilimento Balneare,Ombrelloni,Sdraio">
 <meta name="author" content="Andrea Marchetti">
-<link rel="shortcut icon" href="img/icons/favicon/ico.png">
-<title>Spiaggia dei fiori Fano</title>
+<link rel="shortcut icon" href="../img/icons/favicon/ico.png">
+<title>Spiaggia dei fiori Fano - EN</title>
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -19,14 +19,14 @@
     <![endif]-->
 
 <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="../css/bootstrap.css" rel="stylesheet">
 
 <!-- Custom CSS here -->
-<link href="css/style.css" rel="stylesheet">
-<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Lightbox core CSS -->
-<link href="css/lightbox.css" rel="stylesheet" />
+<link href="../css/lightbox.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -47,15 +47,15 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="index.php" title="Spiaggia dei Fiori home">Home</a></li>
-					<li><a href="#services" title="Servizi">Servizi</a></li>
-					<li><a href="#beach" title="La spiaggia">La spiaggia</a></li>
-					<li><a href="#contacts" title="Contatti">Contatti e Location</a></li>
+					<li><a href="#services" title="Servizi">Services</a></li>
+					<li><a href="#beach" title="La spiaggia">Beach</a></li>
+					<li><a href="#contacts" title="Contatti">Contacts & Location</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="eng" title="English"><img
-							src="img/icons/languages/eng.png" alt="English"> </a></li>
-					<li><a href="#top" title="Italiano"><img
-							src="img/icons/languages/ita.png" alt="Italiano"> </a></li>
+					<li><a href="#top" title="English"><img
+							src="../img/icons/languages/eng.png" alt="English"> </a></li>
+					<li><a href="../" title="Italiano"><img
+							src="../img/icons/languages/ita.png" alt="Italiano"> </a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -65,14 +65,13 @@
 	<!-- Full Page Image Header Area -->
 	<div id="top" class="header">
 		<div class="vert-text white">
-			<h1>Benvenuto!!</h1>
+			<h1>Welcome!!</h1>
 			<h3>
-				Scopri tutti i nostri servizi, le offerte e le attrazioni che
-				offriamo <br>per un soggiorno indimenticabile sulla costa adriatica
-				di Fano
+				Discover all our services, offerings and attractions that we offer
+				for you <br>for an unforgettable holiday on the Adriatic coast of
+				Fano
 			</h3>
-			<br> <a href="#services" class="btn btn-default btn-lg">Comincia il
-				tour...</a>
+			<br> <a href="#services" class="btn btn-default btn-lg">Tour start...</a>
 		</div>
 	</div>
 	<!-- /Full Page Image Header Area -->
@@ -82,11 +81,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center">
-					<h2>Scopri i servizi che mettiamo a disposizione!</h2>
+					<h2>Discover the services that we provide to you!</h2>
 					<p class="lead">
-						Tutti i dettagli sui servizi per i clienti offerti da Spiaggia dei
-						Fiori Fano. Scorri inoltre le foto della <a href="#beach">galleria</a>
-						per vedere la nostra struttura balneare.
+						All the details on the services offered to customers by Spiaggia
+						dei Fior Fano. Browse the photo <a
+							href="#beach">gallery</a> to see other picture our
+						bathhouse. 
 					</p>
 				</div>
 			</div>
@@ -99,7 +99,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-md-offset-4 text-center">
-					<h2>I nostri servizi:</h2>
+					<h2>Our services:</h2>
 					<hr>
 				</div>
 			</div>
@@ -108,31 +108,28 @@
 					<div class="service-item">
 						<i class="service-icon fa sport"></i>
 						<h4>Sport</h4>
-						<p>Campo polivalente: Beach-Volley / Beach-Tennis dotato di
-							illuminazione per attivit&agrave; anche noturna</p>
+						<p>Beach-Volley / Beach-Tennis with light for playing at night</p>
 					</div>
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
 						<i class="service-icon fa connect"></i>
-						<h4>Connettivit&agrave;</h4>
-						<p>Possibilit&agrave; di navigazione internet gratuita grazie
-							alla rete Wi-fi disponibile per tutti i clienti</p>
+						<h4>Connectivity</h4>
+						<p>Free Wi-fi connection for all clients</p>
 					</div>
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
 						<i class="service-icon fa clients-services"></i>
-						<h4>Per i bagnanti</h4>
-						<p>Doccia con acqua dolce, doccia riscaldata e "Tunnel del
-							fresco", area giochi attrezzata per bambini</p>
+						<h4>Relax</h4>
+						<p>Fresh water shower, hot shower and "Fresh tunnel", play area for children</p>
 					</div>
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
 						<i class="service-icon fa sea-service"></i>
-						<h4>Attrezzature in mare</h4>
-						<p>Canoe posto singolo, canoe biposto, pedal&ograve; e spiaggine</p>
+						<h4>Facilities at sea</h4>
+						<p>Canoe single place, canoe duble place, pedal&ograve; and spiaggine</p>
 					</div>
 				</div>
 			</div>
@@ -143,9 +140,9 @@
 	<!-- Callout -->
 	<div class="callout" id="beach">
 		<div class="vert-text">
-			<h1>Un luogo perfetto per le tue vacanze...</h1>
-			<br> <a href="#contacts" class="btn btn-default btn-lg">Scopri come
-				raggiungerci</a>
+			<h1>A perfect place for your holiday...</h1>
+			<br> <a href="#contacts" class="btn btn-default btn-lg">Discover
+				where we are</a>
 		</div>
 	</div>
 	<!-- /Callout -->
@@ -155,49 +152,49 @@
 		<div class="container">
 			<div class="row" style="margin-top: -50px;">
 				<div class="col-md-4 col-md-offset-4 text-center">
-					<h3>Clicca sulle immagini per ingrandirle</h3>
+					<h3>Click on images to enlarge</h3>
 					<hr>
 				</div>
 			</div>
 
 			<div class="gallery-tmb text-center">
-				<a href="img/gallery/gallery_3.jpg" data-lightbox="roadtrip"
+				<a href="../img/gallery/gallery_3.jpg" data-lightbox="roadtrip"
 					title="La Spiaggia dei Fiori di Fano"><img
-					src="img/gallery/gallery_3.jpg" class=""
+					src="../img/gallery/gallery_3.jpg" class=""
 					alt="La Spiaggia dei Fiori di Fano"> </a> <a
-					href="img/gallery/gallery_4.jpg" data-lightbox="roadtrip"
+					href="../img/gallery/gallery_4.jpg" data-lightbox="roadtrip"
 					title="Veduta delle prime file di ombrelloni"><img
-					src="img/gallery/gallery_4.jpg" class=""
+					src="../img/gallery/gallery_4.jpg" class=""
 					alt="Veduta delle prime file di ombrelloni"> </a> <a
-					href="img/gallery/gallery_5.jpg" data-lightbox="roadtrip"
+					href="../img/gallery/gallery_5.jpg" data-lightbox="roadtrip"
 					title="Spiaggia dei Fiori dall'alto"><img
-					src="img/gallery/gallery_5.jpg" class=""
+					src="../img/gallery/gallery_5.jpg" class=""
 					alt="Spiaggia dei Fiori dall'alto"> </a> <a
-					href="img/gallery/gallery_6.jpg" data-lightbox="roadtrip"
+					href="../img/gallery/gallery_6.jpg" data-lightbox="roadtrip"
 					title="Torretta di salvataggio"><img
-					src="img/gallery/gallery_6.jpg" class=""
+					src="../img/gallery/gallery_6.jpg" class=""
 					alt="Torretta di salvataggio"> </a> <a
-					href="img/gallery/gallery_7.jpg" data-lightbox="roadtrip"
+					href="../img/gallery/gallery_7.jpg" data-lightbox="roadtrip"
 					title="Bandiera blu per le acque"><img
-					src="img/gallery/gallery_7.jpg" class=""
+					src="../img/gallery/gallery_7.jpg" class=""
 					alt="Bandiera blu per le acque"> </a> <a
-					href="img/gallery/gallery_8.jpg" data-lightbox="roadtrip"
+					href="../img/gallery/gallery_8.jpg" data-lightbox="roadtrip"
 					title="Spiaggia dei Fiori Fano"><img
-					src="img/gallery/gallery_8.jpg" class=""
+					src="../img/gallery/gallery_8.jpg" class=""
 					alt="Spiaggia dei Fiori Fano"> </a> <a
-					href="img/gallery/gallery_9.jpg" data-lightbox="roadtrip"
+					href="../img/gallery/gallery_9.jpg" data-lightbox="roadtrip"
 					title="Veduta delle prime file di ombrelloni"><img
-					src="img/gallery/gallery_9.jpg" class=""
+					src="../img/gallery/gallery_9.jpg" class=""
 					alt="Veduta delle prime file di ombrelloni"> </a> <a
-					href="img/gallery/gallery_10.jpg" data-lightbox="roadtrip"
+					href="../img/gallery/gallery_10.jpg" data-lightbox="roadtrip"
 					title="Veduta delle prime file di ombrelloni"><img
-					src="img/gallery/gallery_10.jpg" class=""
+					src="../img/gallery/gallery_10.jpg" class=""
 					alt="Veduta delle prime file di ombrelloni"> </a>
 			</div>
 			<div class="text-center">
 				<h5>
-					<i>Puoi trovare tante altre immagini sulla nostra pagina Facebook
-						ufficiale: <a href="https://www.facebook.com/SpiaggiaDeiFioriFano"
+					<i>You can find other pictures on our Official Facebook page:<a
+						href="https://www.facebook.com/SpiaggiaDeiFioriFano"
 						target="_blank">Spiaggia dei Fiori Fano</a>
 					</i>
 				</h5>
@@ -212,11 +209,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center">
-					<h2>Contatti e Location</h2>
+					<h2>Contacts & Location</h2>
 					<br>
 					<div class="col-md-4 icons">
 						<p>
-							<img src="img/icons/contacts-location/loc.png"><br>
+							<img src="../img/icons/contacts-location/loc.png"><br>
 						
 						
 						<h5>
@@ -227,23 +224,23 @@
 					</div>
 					<div class="col-md-4 icons">
 						<p>
-							<img src="img/icons/contacts-location/info.png"><br>
+							<img src="../img/icons/contacts-location/info.png"><br>
 						
 						
 						<h5>
-							PER INFO: <br> <br> Tel. 0721-804916 <br> <a
+							INFO: <br> <br> Tel. 0721-804916 <br> <a
 								href="mailto:info@spiaggiadeifiori.it" target="_blank"
 								class="dark">info@spiaggiadeifiori.it</a>
 						</h5>
 						</p>
 					</div>
 					<div class="col-md-4 icons">
-						<img src="img/icons/contacts-location/facebook-logo.png"> <br>
+						<img src="../img/icons/contacts-location/facebook-logo.png"> <br>
 						<h5>
 							SOCIAL:<br> <br> <a
 								href="https://www.facebook.com/SpiaggiaDeiFioriFano"
-								target="_blank"><i>SpiaggiaDeiFioriFano</i> </a><br>Seguici
-							anche su Facebook!!
+								target="_blank"><i>SpiaggiaDeiFioriFano</i> </a><br>Follow us on
+							Facebook!!
 						</h5>
 					</div>
 				</div>
@@ -272,7 +269,7 @@
 					<div class="col-md-12 text-center" style="margin-top: -80px;">
 						<div class="service-item">
 							<a href="#top"><i class="service-icon fa fa-arrow-up"></i>
-								<h4>Torna all'inizio</h4> </a>
+								<h4>Go to intro</h4> </a>
 						</div>
 					</div>
 					<hr>
@@ -289,12 +286,12 @@
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/jquery-1.10.2.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<script src="../js/jquery-1.10.2.js"></script>
+	<script src="../js/bootstrap.js"></script>
 
 	<!-- Lightbox core JavaScript
     ================================================== -->
-	<script src="js/lightbox.min.js"></script>
+	<script src="../js/lightbox.min.js"></script>
 
 	<!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
 	<script>
