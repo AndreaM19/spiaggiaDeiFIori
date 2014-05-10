@@ -1,46 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-	<url>
-		<loc>http://www.spiaggiadeifiori.it</loc>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://www.spiaggiadeifiori.it/#beach</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.7</priority>
-	</url>
-	<url>
-		<loc>http://www.spiaggiadeifiori.it/#contacts</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.9</priority>
-	</url>
-	<url>
-		<loc>http://www.spiaggiadeifiori.it/#services</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.7</priority>
-	</url>
-	<!-- English version -->
-	<url>
-		<loc>http://www.spiaggiadeifiori.it/eng</loc>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://www.spiaggiadeifiori.it/eng/#beach</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.7</priority>
-	</url>
-	<url>
-		<loc>http://www.spiaggiadeifiori.it/eng/#contacts</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.9</priority>
-	</url>
-	<url>
-		<loc>http://www.spiaggiadeifiori.it/eng/#services</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.7</priority>
-	</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.spiaggiadeifiori.it/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.spiaggiadeifiori.it/index.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.spiaggiadeifiori.it/eng/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.spiaggiadeifiori.it/eng/index.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
 </urlset>

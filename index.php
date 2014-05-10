@@ -70,11 +70,13 @@
 				Scopri tutti i nostri servizi, le offerte e le attrazioni che
 				offriamo <br>per un soggiorno indimenticabile sulla costa adriatica
 				di Fano
-			</h3><br>
+			</h3>
+			<br>
 			<div class="col-md-12 text-center">
 				<div class="service-item">
-					<a href="#services" style="color:#FFF;"><i class="service-icon-medium fa fa-arrow-down"></i>
-						<h2>Inizia il tour</h2></a>
+					<a href="#services" style="color: #FFF;"><i
+						class="service-icon-medium fa fa-arrow-down"></i>
+						<h2>Inizia il tour</h2> </a>
 				</div>
 			</div>
 			<!-- <a href="#services" class="btn btn-default btn-lg">Comincia il
@@ -128,7 +130,8 @@
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
-						<i class="service-icon-big fa clients-services" title="Servizi per i bagnanti"></i>
+						<i class="service-icon-big fa clients-services"
+							title="Servizi per i bagnanti"></i>
 						<h4>Per i bagnanti</h4>
 						<p>Doccia con acqua dolce, doccia riscaldata e "Tunnel del
 							fresco", area giochi attrezzata per bambini</p>
@@ -136,7 +139,8 @@
 				</div>
 				<div class="col-md-2 text-center">
 					<div class="service-item">
-						<i class="service-icon-big fa sea-service" title="Attrezzature in mare"></i>
+						<i class="service-icon-big fa sea-service"
+							title="Attrezzature in mare"></i>
 						<h4>Attrezzature in mare</h4>
 						<p>Canoe posto singolo, canoe biposto, pedal&ograve; e spiaggine</p>
 					</div>
@@ -153,8 +157,9 @@
 			<br>
 			<div class="col-md-12 text-center">
 				<div class="service-item">
-					<a href="#contacts" style="color:#FFF;"><i class="service-icon-medium fa fa-map-marker"></i>
-						<h2>Scopri come raggiungerci</h2></a>
+					<a href="#contacts" style="color: #FFF;"><i
+						class="service-icon-medium fa fa-map-marker"></i>
+						<h2>Scopri come raggiungerci</h2> </a>
 				</div>
 			</div>
 			<!-- <a href="#contacts" class="btn btn-default btn-lg">Scopri come
@@ -227,31 +232,35 @@
 					<h2>Contatti e Location</h2>
 					<br>
 					<div class="col-md-4 text-center">
-					<div class="service-item">
-						<i class="service-icon-medium fa fa-map-marker"></i>
-						<h4>Location:</h4>
-						<p>Via delle Nasse <br>Localit&agrave; Gimarra <br>FANO
-							(PU)</p>
+						<div class="service-item">
+							<i class="service-icon-medium fa fa-map-marker"></i>
+							<h4>Location:</h4>
+							<p>
+								Via delle Nasse <br>Localit&agrave; Gimarra <br>FANO (PU)
+							</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-4 text-center">
-					<div class="service-item">
-						<i class="service-icon-medium fa fa-info"></i>
-						<h4>Info:</h4>
-						<p>Tel. 0721-804916 <br> <a
-								href="mailto:info@spiaggiadeifiori.it" target="_blank"
-								class="dark">info@spiaggiadeifiori.it</a></p>
+					<div class="col-md-4 text-center">
+						<div class="service-item">
+							<i class="service-icon-medium fa fa-info"></i>
+							<h4>Info:</h4>
+							<p>
+								Tel. 0721-804916 <br> <a href="mailto:info@spiaggiadeifiori.it"
+									target="_blank" class="dark">info@spiaggiadeifiori.it</a>
+							</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-4 text-center">
-					<div class="service-item">
-						<i class="service-icon-medium fa fa-facebook"></i>
-						<h4>Social:</h4>
-						<p>Seguici sulla nostra pagina Facebook<br><a
-								href="https://www.facebook.com/SpiaggiaDeiFioriFano"
-								target="_blank"><i>SpiaggiaDeiFioriFano</i> </a></p>
+					<div class="col-md-4 text-center">
+						<div class="service-item">
+							<i class="service-icon-medium fa fa-facebook"></i>
+							<h4>Social:</h4>
+							<p>
+								Seguici sulla nostra pagina Facebook<br> <a
+									href="https://www.facebook.com/SpiaggiaDeiFioriFano"
+									target="_blank"><i>SpiaggiaDeiFioriFano</i> </a>
+							</p>
+						</div>
 					</div>
-				</div>
 				</div>
 			</div>
 		</div>
@@ -277,11 +286,12 @@
 					</div>-->
 					<div class="col-md-12 text-center" style="margin-top: -50px;">
 						<div class="service-item">
-							<a href="#top"><i class="service-icon-medium fa fa-arrow-up icon-blue"></i>
+							<a href="#top"><i
+								class="service-icon-medium fa fa-arrow-up icon-blue"></i>
 								<h4>Torna all'inizio</h4> </a>
 						</div>
 					</div>
-					
+
 					<p>
 						Design by <a href="http://about.me/andrea.marchetti/"
 							target="_blanks">Andrea Marchetti</a> &copy;
@@ -302,7 +312,8 @@
     ================================================== -->
 	<script src="js/lightbox.min.js"></script>
 
-	<!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+	<!-- Custom JavaScript for the Side Menu and Smooth Scrolling
+	================================================== -->
 	<script>
     $("#menu-close").click(function(e) {
         e.preventDefault();
@@ -327,12 +338,24 @@
                         scrollTop: target.offset().top
                     }, 1000);
                     return false;
-                }
+               	}
             }
         });
     });
     </script>
 
+	<!-- Google Analitycs
+    ================================================== -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50847596-1', 'spiaggiadeifiori.it');
+  ga('send', 'pageview');
+
+	</script>
 </body>
 
 </html>
