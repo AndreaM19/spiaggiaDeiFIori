@@ -18,15 +18,18 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<!-- Reset core CSS -->
+<link href="css/reset/reset.css" rel="stylesheet">
 <!-- Bootstrap core CSS -->
-<link href="../css/bootstrap.css" rel="stylesheet">
-
-<!-- Custom CSS here -->
-<link href="../css/style.css" rel="stylesheet">
-<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
+<link href="../css/bootstrap/bootstrap.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="../css/custom/style.css" rel="stylesheet">
+<!-- Font awesome CSS -->
+<link href="../css/font-awesome/css/font-awesome.min.css"
+	rel="stylesheet">
 <!-- Lightbox core CSS -->
-<link href="../css/lightbox.css" rel="stylesheet" />
+<link href="../css/lightbox/lightbox.css" rel="stylesheet">
+
 </head>
 
 <body>

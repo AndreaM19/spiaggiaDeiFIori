@@ -44,7 +44,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/wallpaper/wallpaper4.jpg) no-repeat center center fixed; 
+  background: url(../../img/wallpaper/wallpaper4.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -116,7 +116,7 @@ i.icon-blue {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/wallpaper/wallpaper2.jpg) no-repeat center center fixed; 
+  background: url(../../img/wallpaper/wallpaper2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -194,41 +194,50 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-	background: url(../img/wallpaper/wallpaper4.jpg) no-repeat center center scroll; 
+	background: url(../../img/wallpaper/wallpaper4.jpg) no-repeat center center scroll; 
   }
 
   .callout {
-	background: url(../img/wallpaper/wallpaper2.jpg) no-repeat center center scroll; 
+	background: url(../../img/wallpaper/wallpaper2.jpg) no-repeat center center scroll; 
   }
 
   .map {
 	height: 75%;
-  }
+  }  
+}
 
+@media (max-width: 500px) {
+	.vert-text h1 {
+  	padding: 0;
+  	margin: 0;
+	margin-top:40px;
+  	font-size: 3.0em;
+  	font-weight: 700;
+  }
 }
 
 
 /*Service Icons*/
 .sport{
-	background-image: url(../img/icons/services/small/sport_w.png);
+	background-image: url(../../img/icons/services/small/sport_w.png);
 	background-repeat:no-repeat;
 	background-position:center;
 }
 
 .connect{
-	background-image:url(../img/icons/services/small/connectivity_w.png);
+	background-image:url(../../img/icons/services/small/connectivity_w.png);
 	background-repeat:no-repeat;
 	background-position:center;
 }
 
 .sea-service{
-	background-image:url(../img/icons/services/small/attrezzature_in_mare_w.png);
+	background-image:url(../../img/icons/services/small/attrezzature_in_mare_w.png);
 	background-repeat:no-repeat;
 	background-position:center;
 }
 
 .clients-services{
-	background-image:url(../img/icons/services/small/bagnanti.png);
+	background-image:url(../../img/icons/services/small/bagnanti.png);
 	background-repeat:no-repeat;
 	background-position:center;
 }

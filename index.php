@@ -18,15 +18,18 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+<!-- Reset core CSS -->
+<link href="css/reset/reset.css" rel="stylesheet">
 <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
-
-<!-- Custom CSS here -->
-<link href="css/style.css" rel="stylesheet">
-<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
+<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/custom/style.css" rel="stylesheet">
+<!-- Font awesome CSS -->
+<link href="css/font-awesome/css/font-awesome.css" rel="stylesheet">
 <!-- Lightbox core CSS -->
-<link href="css/lightbox.css" rel="stylesheet" />
+<link href="css/lightbox/lightbox.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -236,7 +239,9 @@
 							<i class="service-icon-medium fa fa-map-marker"></i>
 							<h4>Location:</h4>
 							<p>
-								Via delle Nasse <br>Localit&agrave; Gimarra <br>FANO (PU)
+								Via delle Nasse <br>Localit&agrave; Gimarra <br>FANO (PU) <br> <a
+									href="https://www.google.com/maps/place/Bar+Spiaggia+Dei+Fiori/@43.8601662,13.000286,16z/data=!4m2!3m1!1s0x0:0xe4c397172591d617?hl=it-IT">Google
+									Maps</a>
 							</p>
 						</div>
 					</div>
@@ -269,6 +274,8 @@
 
 	<!-- Google Map -->
 	<div id="location" class="map">
+		<!--  <iframe src="https://mapsengine.google.com/map/embed?mid=zngJcsPG7dVU.kXDbCH5Rvepw" width="100%" height="100%" frameborder="0" style="border: 0"></iframe>-->
+
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2876.869522039553!2d12.995775000000002!3d43.858532999999994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4c397172591d617!2sBar+Spiaggia+Dei+Fiori!5e0!3m2!1sit!2s!4v1399324905796"
 			width="100%" height="100%" frameborder="0" style="border: 0"></iframe>
@@ -280,10 +287,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center">
-					<!--<div class="top-scroll">
-						<a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"><h4>Torna
-									all'inizio</h4> </i> </a>
-					</div>-->
 					<div class="col-md-12 text-center" style="margin-top: -50px;">
 						<div class="service-item">
 							<a href="#top"><i
